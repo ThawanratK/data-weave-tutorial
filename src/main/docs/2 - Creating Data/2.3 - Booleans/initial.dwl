@@ -2,7 +2,7 @@
 output json
 ---
 {
-  "string": "hello",
-  "number": 1,
-  "boolean": true
+  "string": typeOf("hello"),
+  "number": typeOf(1),
+  "boolean": typeOf(true)
 }
