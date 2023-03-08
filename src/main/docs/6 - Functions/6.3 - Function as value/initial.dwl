@@ -1,4 +1,5 @@
 %dw 2.0
 output json
+
 ---
-filter(payload, (n, idx) -> (n mod 2) == 1)
+filter(payload, (n, idx) -> n > 3)
