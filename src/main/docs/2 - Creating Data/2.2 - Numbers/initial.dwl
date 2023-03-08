@@ -1,4 +1,4 @@
 %dw 2.0
 output json
 ---
-1
+typeOf(3.1415)
