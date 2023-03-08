@@ -1,6 +1,9 @@
 %dw 2.0
-output xml
+output json
 ---
 {
-    titles: {}
+    titles: {
+        title: "Titanic",
+        title: "Avatar"
+    },
 }
