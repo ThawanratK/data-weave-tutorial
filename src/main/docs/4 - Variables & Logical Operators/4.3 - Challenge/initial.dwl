@@ -12,4 +12,8 @@ var data = {
   ]
 }
 ---
-[]
+[
+  data..name,
+  data.locations.address[0],
+  data.locations.state[0] != "CA"
+]
